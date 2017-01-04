@@ -23,6 +23,7 @@
   <scripts name="scripts">
     <script>scripts\scr_get_input.gml</script>
     <script>scripts\scr_move_state.gml</script>
+    <script>scripts\scr_get_face.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>

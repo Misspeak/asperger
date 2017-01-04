@@ -2,19 +2,13 @@
 
 scr_get_input ();
 
-//Get axis
-var xaxis = (right_key - left_key);
-var yaxis = (down_key - up_key);
-
-//Get direction
-var dir = point_direction (0, 0, xaxis, yaxis);
-
 //Get the length
 
 if (xaxis == 0 and yaxis == 0) {
     len = 0;
 } else {
     len = spd;
+    scr_get_face ();
 }
 
 //Get hspd and vspd
@@ -29,17 +23,22 @@ phy_position_y += vspd;
 //Sprite control
 image_speed = sign(len)*.2;
 if (len == 0) image_index = 0;
-    //Vertical sprites
-if (vspd > 0) {
-    sprite_index = spr_player_down; 
-} else if (vspd < 0) {
-    sprite_index = spr_player_up;
-}
 
-    //Horizontal sprites
-if (hspd > 0) {
-    sprite_index = spr_player_right;
-} else if (hspd < 0) {
-    sprite_index = spr_player_left;
-}
 
+switch (face) {
+    case RIGHT:
+        sprite_index = spr_player_right;
+        break;
+            
+    case UP:
+        sprite_index = spr_player_up;
+        break;
+    
+    case LEFT:
+        sprite_index = spr_player_left;
+        break;
+        
+    case DOWN:
+        sprite_index = spr_player_down;
+        break;
+}
