@@ -53,6 +53,7 @@
   <instances>
     <instance objName="obj_player" x="192" y="736" name="inst_B77B3654" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_view" x="192" y="736" name="inst_50887722" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="288" y="704" name="inst_3EE1EACA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="tileset_small" x="0" y="0" w="64" h="64" xo="0" yo="0" id="10000080" name="inst_ECB9E8C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

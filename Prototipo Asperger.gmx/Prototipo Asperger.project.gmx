@@ -14,6 +14,8 @@
     <sprite>sprites\spr_npc_cactus_idle</sprite>
     <sprite>sprites\spr_npc_cactus_idl</sprite>
     <sprite>sprites\spr_walll</sprite>
+    <sprite>sprites\spr_sign</sprite>
+    <sprite>sprites\spr_dialog_box</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileset_big</background>
@@ -30,6 +32,9 @@
     <object>objects\obj_npc_cactus</object>
     <object>objects\obj_wall</object>
     <object>objects\obj_view</object>
+    <object>objects\obj_speaker</object>
+    <object>objects\obj_dialog</object>
+    <object>objects\obj_sign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test_tiles</room>
