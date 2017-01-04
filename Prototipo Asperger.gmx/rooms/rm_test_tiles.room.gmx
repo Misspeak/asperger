@@ -11,7 +11,7 @@
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
   <code></code>
-  <enableViews>0</enableViews>
+  <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
   <makerSettings>
@@ -41,7 +41,7 @@
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
   </backgrounds>
   <views>
-    <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
+    <view visible="-1" objName="obj_player" xview="0" yview="0" wview="320" hview="180" xport="0" yport="0" wport="960" hport="540" hborder="160" vborder="90" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
@@ -50,7 +50,11 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
-  <instances/>
+  <instances>
+    <instance objName="obj_player" x="512" y="224" name="inst_B77B3654" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="416" y="96" name="inst_868F9804" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="544" y="160" name="inst_F1ECD857" locked="0" code="" scaleX="1" scaleY="4" colour="4294967295" rotation="0"/>
+  </instances>
   <tiles>
     <tile bgName="tileset_small" x="0" y="0" w="64" h="64" xo="0" yo="0" id="10000080" name="inst_ECB9E8C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="64" y="0" w="64" h="64" xo="0" yo="0" id="10000081" name="inst_4361AA11" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -142,7 +146,6 @@
     <tile bgName="tileset_small" x="512" y="160" w="64" h="64" xo="0" yo="0" id="10000189" name="inst_610646B9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="512" y="128" w="64" h="64" xo="0" yo="0" id="10000190" name="inst_BFD39A71" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="480" y="128" w="64" h="64" xo="0" yo="0" id="10000191" name="inst_393E4ED2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tileset_small" x="448" y="96" w="64" h="64" xo="0" yo="0" id="10000192" name="inst_138D0B4A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="416" y="96" w="64" h="64" xo="0" yo="0" id="10000193" name="inst_86D87D34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="384" y="96" w="64" h="64" xo="0" yo="0" id="10000194" name="inst_DA169772" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="384" y="64" w="64" h="64" xo="0" yo="0" id="10000195" name="inst_2D686F94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -195,7 +198,6 @@
     <tile bgName="tileset_small" x="480" y="32" w="64" h="64" xo="0" yo="0" id="10000243" name="inst_743C4BCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="544" y="64" w="64" h="64" xo="0" yo="0" id="10000244" name="inst_342599C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="512" y="64" w="64" h="64" xo="0" yo="0" id="10000245" name="inst_3F32752A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="tileset_small" x="480" y="64" w="64" h="64" xo="0" yo="0" id="10000246" name="inst_C800F5AA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="448" y="64" w="64" h="64" xo="0" yo="0" id="10000247" name="inst_DE3EE427" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="576" y="128" w="64" h="64" xo="0" yo="0" id="10000248" name="inst_D53D3BB7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="640" y="128" w="64" h="64" xo="0" yo="0" id="10000249" name="inst_72B7CB7E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -451,12 +453,12 @@
     <tile bgName="tileset_small" x="160" y="224" w="64" h="64" xo="64" yo="128" id="10000145" name="inst_DFA75A2D" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="tileset_small" x="192" y="32" w="64" h="64" xo="64" yo="128" id="10000146" name="inst_13494E0B" depth="1" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
-  <PhysicsWorld>0</PhysicsWorld>
+  <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
   <PhysicsWorldRight>1024</PhysicsWorldRight>
   <PhysicsWorldBottom>768</PhysicsWorldBottom>
   <PhysicsWorldGravityX>0</PhysicsWorldGravityX>
-  <PhysicsWorldGravityY>10</PhysicsWorldGravityY>
+  <PhysicsWorldGravityY>0</PhysicsWorldGravityY>
   <PhysicsWorldPixToMeters>0.100000001490116</PhysicsWorldPixToMeters>
 </room>

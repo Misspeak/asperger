@@ -13,15 +13,21 @@
     <sprite>sprites\spr_player_shadow</sprite>
     <sprite>sprites\spr_npc_cactus_idle</sprite>
     <sprite>sprites\spr_npc_cactus_idl</sprite>
+    <sprite>sprites\spr_walll</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\tileset_big</background>
     <background>background\tileset_small</background>
   </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_get_input.gml</script>
+    <script>scripts\scr_move_state.gml</script>
+  </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_npc_cactus</object>
+    <object>objects\obj_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test_tiles</room>
