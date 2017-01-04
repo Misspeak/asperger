@@ -29,11 +29,15 @@
 
 scr_get_input ();
 
+//Rotation
 phy_fixed_rotation = true;
 
 // Variables
 
 spd = 2;
+hspd = 0;
+vspd = 0;
+len = 0;
 
 //States
 
